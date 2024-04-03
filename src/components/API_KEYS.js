@@ -1,2 +1,2 @@
-export const CLIENT_ID = "18c25419f0ba48c28f1e6784a809605f";
-export const CLIENT_SECRET="0ef582292012400ab2fd5ce5a2b10f52";
+export const CLIENT_ID = "insert your client ID";
+export const CLIENT_SECRET="insert your client secret";
