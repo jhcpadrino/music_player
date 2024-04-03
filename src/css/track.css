@@ -1,0 +1,39 @@
+.containerTrack{
+    border: 1px solid black;
+    width: 75%;
+    text-align: left;
+    margin:auto;
+    padding: 5px;
+    
+
+}
+.containerTrack h2{
+    margin: 0;
+
+}
+.track{
+  
+ display: flex;
+ justify-content:space-between;
+
+
+}
+
+.track p{
+    padding: 5px;
+}
+.track button{
+    font-size: 18px;
+    font-weight: bold;
+    justify-items: center;
+    background-color: rgb(103, 10, 10);
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+
+
+}
+.track button:hover {
+    background: #73AD21;
+    font-size: 22px;
+}

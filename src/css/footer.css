@@ -1,0 +1,15 @@
+.footer{
+    display: block;
+    float: left;
+    padding: 0px;
+    width: 100%;
+    background-color: rgb(103, 10, 10);
+
+}
+.footer h4{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     padding: 0px;
+     margin: 10px;
+    color: goldenrod;
+}
