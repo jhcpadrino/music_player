@@ -11,7 +11,7 @@ const Playlist = ({songs, removeFromPlaylist, savePlaylist}) =>{
       // Save the playlist name
   
     const savePlaylistname = () => {
-        
+
          savePlaylist(name,songs);
         
     }
@@ -20,7 +20,7 @@ const Playlist = ({songs, removeFromPlaylist, savePlaylist}) =>{
            <div className="playlist_container">
              <h2>Playlist</h2>
              <input type='text' placeholder='Insert Playlist Name'name='name' id='name'  value={name} onChange={(e)=>changeName(e.target.value)}/>
-             <button className='button' onClick={savePlaylistname}  >Save Playlist</button>
+             <button className='button' onClick={savePlaylistname}  >Save to Spotify</button>
              {
                 songs.map((song)=>{
                     return(
